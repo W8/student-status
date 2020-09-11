@@ -1,8 +1,8 @@
 {
-  "name": "student-status-example",
-  "homepage": ".",
-  "version": "0.0.0",
-  "private": true,
+  "name": "student-status",
+  "homepage": "https://studentstat.us",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",

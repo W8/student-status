@@ -1,9 +1,32 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.studentstatusBtn {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  text-transform: none;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  overflow: visible;
+  cursor: pointer;
+}
+.studentstatusBtn:hover {
+  background-color: #374151;
+}
+.studentstatusBtn:active {
+  background-color: #5145cd;
+}
+.studentstatusBtn:focus {
+  box-shadow: 0 0 0 3px rgba(180, 198, 252, 0.45);
+}
+.studentstatusBtn > img {
+  margin-right: 0.5rem;
 }

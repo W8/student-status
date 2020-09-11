@@ -1,6 +1,4 @@
-# student-status
-
-> React components for Student Status Embeds
+# Student Status Components for React
 
 [![NPM](https://img.shields.io/npm/v/student-status.svg)](https://www.npmjs.com/package/student-status) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -8,23 +6,41 @@
 
 ```bash
 npm install --save student-status
+
+yarn add student-status
 ```
 
 ## Usage
 
-```jsx
-import React, { Component } from 'react'
+```js
+import React from 'react'
 
-import MyComponent from 'student-status'
-import 'student-status/dist/index.css'
+import {
+  StudentStatusDefault,
+  StudentStatusCard,
+  StudentStatusButton
+} from 'student-status'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignContent: 'center'
+      }}
+    >
+      <StudentStatusDefault />
+      <StudentStatusCard />
+      <StudentStatusButton
+        logoWidth={20}
+        fontSize='1rem'
+        padding='0.5rem 1rem'
+        lineHeight='1.5rem'
+      />
+    </div>
+  )
 }
+
+export default App
 ```
-
-## License
-
-MIT © [w8](https://github.com/w8)
