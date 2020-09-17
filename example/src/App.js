@@ -16,8 +16,8 @@ const App = () => {
         alignContent: 'center'
       }}
     >
-      <StudentStatusDefault />
-      <StudentStatusCard />
+      <StudentStatusDefault primaryColor='red' />
+      <StudentStatusCard primaryColor='red' />
       <StudentStatusButton />
     </div>
   )
