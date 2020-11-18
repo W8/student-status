@@ -1,4 +1,4 @@
-# Student Status Components for React
+# React Components for Student Status
 
 [![NPM](https://img.shields.io/npm/v/student-status.svg)](https://www.npmjs.com/package/student-status) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
